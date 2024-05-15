@@ -17,11 +17,8 @@ Welcome to the LoginUserApp project! This documentation will guide you through t
 LoginUserApp is an iOS application designed to manage user authentication and authorization. It provides a simple interface for users to register, log in, and manage their profiles. This application is written in Swift and uses modern iOS development practices to ensure security and performance.
 
 ## Features
-- User registration
-- User login
-- Password encryption
-- Session management
-- Profile management
+- User login App
+- UI Tests
 
 ## Requirements
 - Xcode 12.0 or later
