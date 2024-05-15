@@ -14,11 +14,10 @@ Welcome to the LoginUserApp project! This documentation will guide you through t
 - [License](#license)
 
 ## Overview
-LoginUserApp is an iOS application designed to manage user authentication and authorization. It provides a simple interface for users to register, log in, and manage their profiles. This application is written in Swift and uses modern iOS development practices to ensure security and performance.
+LoginUserApp is an iOS application designed as a Test Automation Framework demo for iOS apps. The main purpose of this project is to showcase the use of the Page Object Model (POM) to describe all states on a screen, facilitating efficient and maintainable UI test automation. This simple app includes a login feature only, and it is written in Swift using modern iOS development practices.
 
 ## Features
-- User login App
-- UI Tests
+- User login
 
 ## Requirements
 - Xcode 12.0 or later
@@ -39,12 +38,19 @@ To get started with LoginUserApp, follow these steps:
     open LoginUserApp.xcodeproj
     ```
 
-3. **Open the workspace:**
+3. **Install dependencies:**
+    - Make sure you have [CocoaPods](https://cocoapods.org/) installed.
+    - Navigate to the project directory and run:
+        ```sh
+        pod install
+        ```
+
+4. **Open the workspace:**
     ```sh
     open LoginUserApp.xcworkspace
     ```
 
-4. **Build and run the project:**
+5. **Build and run the project:**
     - Select a target device or simulator.
     - Press `Cmd + R` to build and run the application.
 
@@ -54,7 +60,7 @@ Once the application is running on your device or simulator, you can perform the
 - **Log in a user:** Access the login screen and enter the credentials.
 
 ## Testing
-LoginUserApp includes a UI test framework written in Swift. To run the tests, follow these steps:
+LoginUserApp includes a UI test framework written in Swift. The project demonstrates the use of the Page Object Model (POM) to describe all states on a screen, making the tests more maintainable and scalable. To run the tests, follow these steps:
 
 1. **Select the test target:**
     - In Xcode, select the `LoginUserAppUITests` target.
