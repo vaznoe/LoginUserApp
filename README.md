@@ -51,15 +51,7 @@ To get started with LoginUserApp, follow these steps:
 ## Usage
 Once the application is running on your device or simulator, you can perform the following actions:
 
-- **Register a new user:** Access the registration screen and fill in the required details.
 - **Log in a user:** Access the login screen and enter the credentials.
-- **View and edit profile:** Navigate to the profile screen (authentication required).
-
-## Configuration
-The application can be configured using a `Config.plist` file. Below are the available options:
-
-- `API_BASE_URL`: The base URL of the backend API.
-- `JWT_SECRET`: The secret key used for signing JSON Web Tokens.
 
 ## Testing
 LoginUserApp includes a UI test framework written in Swift. To run the tests, follow these steps:
