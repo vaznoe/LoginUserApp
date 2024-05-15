@@ -24,7 +24,6 @@ class BaseTest: XCTestCase {
         do {
             loginPage = try LoginPage(application: app)
         } catch {
-            print(error.localizedDescription)
             throw PageError.preconditionViolation
         }
     }
